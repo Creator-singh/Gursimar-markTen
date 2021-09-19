@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #495057;
+}
+
+.heading{
+    font-size: 2.5rem;
+}
+
+.heading-text{
+    font-size: large;
+}
+
+.section{
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    min-height: 200px;
+    margin: auto;
+    margin-top: 1.5rem;
+    padding: 2rem 1rem;
+    background-color: #003049;
+    color: #eae2b7;
+}
+
+#bill-amount{
+    background-color: #e5e5e5;
+    padding: 0.5rem;
+    width: 90%;
+}
+
+#next-button{
+    margin-top: 1rem;
+    font-weight: bold; 
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 6rem;
+}
+
+#cash-given{
+    background-color: #e5e5e5;
+    padding: 0.5rem;
+    width: 90%;
+}
+
+#error-message{
+    color: #d62828;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#button-check{
+    background-color: #e5e5e5;
+    padding: 0.5rem;
+    width: 6rem;
+}
+
+table, td, th{
+    padding: 3px;
+    border: 1px solid black;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+td{
+    background-color: #2b2d42;
+}
