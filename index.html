@@ -13,47 +13,45 @@
     <section class="section">
         <h1 class="heading">Cash Register Manager</h1>
         <p class="heading-text">Enter the bill amount and cash given by the customer and know minimum number of notes to be returned.</p>
+            <div style="padding: 0.5rem;">
+                <div style="margin: 0.5rem; font-size: 1.2rem;"><strong>Bill Amount to be paid</strong></div>
+                <input id="bill-amount" type="number" />
+            </div>
 
-        <div style="padding: 0.5rem;">
-            <div style="margin: 0.5rem; font-size: 1.2rem;"><strong>Bill Amount to be paid</strong></div>
-            <input id="bill-amount" type="number"/>
-            <!-- <button id="next-button">Next</button> -->
-        </div>
+            <div style="padding: 0.5rem;">
+                <div style="margin: 0.5rem; font-size: 1.2rem;"><strong>Cash Given by customer</strong></div>
+                <input id="cash-given" type="number" />
+            </div>
 
-        <div style="padding: 0.5rem;">
-            <div style="margin: 0.5rem; font-size: 1.2rem;"><strong>Cash Given by customer</strong></div>
-            <input id="cash-given" type="number"/>  
-        </div>
+            <button id="button-check">Check</button>
 
-        <button id="button-check" style="margin: 1rem; font-weight: bolder; font-size: 1rem;">Check</button>
+            <div id="error-message"></div>
 
-        <div id="error-message"></div>
-
-        <div >
-            <table>
-                <caption style="font-weight: bolder; margin-bottom: 1rem;">Amount to be returned</caption>
-                <tr>
-                    <th>No. of Notes</th>
-                    <td class="no-of-notes"></td>
-                    <td class="no-of-notes"></td>
-                    <td class="no-of-notes"></td>
-                    <td class="no-of-notes"></td>
-                    <td class="no-of-notes"></td>
-                    <td class="no-of-notes"></td>
-                    <td class="no-of-notes"></td>
-                </tr>
-                <tr>
-                    <th>Notes</th>
-                    <td>2000</td>
-                    <td>500</td>
-                    <td>100</td>
-                    <td>20</td>
-                    <td>10</td>
-                    <td>5</td>
-                    <td>1</td>
-                </tr>
-            </table>
-        </div>
+            <div>
+                <table>
+                    <caption style="font-weight: bolder; margin-bottom: 1rem;">Amount to be returned</caption>
+                    <tr>
+                        <th>No. of Notes</th>
+                        <td class="no-of-notes"></td>
+                        <td class="no-of-notes"></td>
+                        <td class="no-of-notes"></td>
+                        <td class="no-of-notes"></td>
+                        <td class="no-of-notes"></td>
+                        <td class="no-of-notes"></td>
+                        <td class="no-of-notes"></td>
+                    </tr>
+                    <tr>
+                        <th>Notes</th>
+                        <td>2000</td>
+                        <td>500</td>
+                        <td>100</td>
+                        <td>20</td>
+                        <td>10</td>
+                        <td>5</td>
+                        <td>1</td>
+                    </tr>
+                </table>
+            </div>
     </section>
 </body>
 <script src="/index.js"></script>

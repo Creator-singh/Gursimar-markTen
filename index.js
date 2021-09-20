@@ -2,7 +2,6 @@ const billAmount = document.querySelector("#bill-amount");
 const cashGiven = document.querySelector("#cash-given");
 const checkButton = document.querySelector("#button-check");
 const errorMessage = document.querySelector("#error-message");
-// const nextButton = document.querySelector("#next-button");
 const noOfNotes = document.querySelectorAll(".no-of-notes");
 
 const availableNotes = [2000, 500, 100, 20, 10, 5, 1];

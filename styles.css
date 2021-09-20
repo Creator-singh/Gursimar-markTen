@@ -56,6 +56,10 @@ body{
     background-color: #e5e5e5;
     padding: 0.5rem;
     width: 6rem;
+    margin: 1rem; 
+    cursor: pointer; 
+    font-weight: bolder; 
+    font-size: 1rem;
 }
 
 table, td, th{
@@ -69,4 +73,3 @@ table, td, th{
 td{
     background-color: #2b2d42;
 }
-
